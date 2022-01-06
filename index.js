@@ -32,7 +32,6 @@ $("#dataTable").ready(function () {
             td2.innerHTML = response[i].namabarang
             td3.innerHTML = response[i].warna
             td4.innerHTML = response[i].harga
-            td5.innerHTML = response[i].jumlah
             td6.innerHTML = `<div class ="justify content-center">
             <a class="btn ms-2" style="background-color: #858ab3; border:none;" href="updateData.html?idcust=${response[i].idcust}">Edit</a>
             <button type ="button" class="btn ms-2" style="background-color: #858ab3; border:none;" onclick="del(${response[i].idcust});">Delete</button>
