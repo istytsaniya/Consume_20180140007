@@ -33,8 +33,8 @@ $("#dataTable").ready(function () {
             td3.innerHTML = response[i].warna
             td4.innerHTML = response[i].harga
             td6.innerHTML = `<div class ="justify content-center">
-            <a class="btn ms-2" style="background-color: #858ab3; border:none;" href="updateData.html?idcust=${response[i].idcust}">Edit</a>
-            <button type ="button" class="btn ms-2" style="background-color: #858ab3; border:none;" onclick="del(${response[i].idcust});">Delete</button>
+            <a class="btn ms-2" style="background-color: #858ab3; border:none;" href="updateData.html?idbarang=${response[i].idbarang}">Edit</a>
+            <button type ="button" class="btn ms-2" style="background-color: #858ab3; border:none;" onclick="del(${response[i].idbarang});">Delete</button>
             </div>`
             }
         }
